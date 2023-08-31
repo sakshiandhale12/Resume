@@ -1,0 +1,33 @@
+{% extends 'core/base.html' %}
+{%load static%}
+{% block containt %}
+<div class="mt-3">
+  <div class="text-center ">
+    <img src="{% static 'core/images/sakshi.jpg' %}" alt="profilepic" class="img-thumbnail" width="150px" height="150px">
+  </div>
+
+  <div class="mt-2 text-white text-justify">
+    <h1 class="font-weight-bold st-font"> Hello</h1>
+    <div class="px-2" style="line-height:2rem;">
+      <p style="text-indent:100px;"> I am
+         <b class="text-warning"> Sakshi Andhale </b>
+         As a highly motivated and skilled software developer,
+          I am excited to contribute my expertise to your esteemed organization
+           as a valuable asset in the role of a Software Developer. 
+           My proficiency in multiple programming languages,
+            such as Python, Java, and JavaScript, 
+            combined with my expertise in web development,
+             database design, and agile methodologies,
+              allows me to efficiently tackle complex projects and drive them to successful completion.
+               {% comment %} <p> I have excellent problem-solving skills, enabling me to identify and address challenges effectively. learning ensures that I stay updated with the latest industry trends and best practices. </p> <p>I am confident that my technical expertise and commitment to excellence make me an ideal candidate for the Software Developer role at your company. I look forward to the opportunity to discuss how my qualifications align with your organization's vision and contribute to its continued success.</p>  {% endcomment %}
+    </div>
+  </div>
+      <div class="text-center">
+      <a href="{% url 'contact' %}" class="btn btn-outline-danger">Hire Me</a>
+      <a href="{% url 'contact' %}" class="btn btn-outline-info">Contact</a> 
+
+    </div>
+
+
+</div>
+{% endblock containt %}

@@ -1,0 +1,62 @@
+/* Font */
+.st-font {
+    font-family: 'Satisfy', cursive;
+}
+
+/* Reset default margins and paddings */
+.body, html {
+    margin: 0;
+    padding: 0;
+    /* height: 100%; */
+    /* background-color: rgb(31, 31, 58); */
+}
+
+/* Full page container */
+.full-page-container {
+    /* height: 100%; */
+    /* background-color: #141313;  Example background color  */
+}
+
+/* Elements with minimum height */
+.min-height {
+    height: 100%;
+    /* background-color: #1f1b1b;  Example background color  */
+}
+
+/* Services Icon color */
+.i-color {
+    color: chartreuse;
+}
+
+/* Services subtitle color */
+.ss-color {
+    color: silver;
+}
+
+/* Navigation link styles */
+a.nav-link {
+    color: whitesmoke;
+}
+
+/* a.nav-link:hover {
+    color: black;
+    background-color: #79e9c7;
+} */
+
+/* a.nav-link.active {
+    color: black;
+    background-color: rgb(248, 214, 19);
+    font-weight: bold;
+} */
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+a.nav-link:hover{
+    background-color:rgb(243, 243, 110);
+    color:black;
+
+
+}
